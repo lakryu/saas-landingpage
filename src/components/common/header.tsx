@@ -52,7 +52,7 @@ export function Header({ className }: SidebarProps) {
         href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
         target="_blank"
       >
-        <Button size="tiny" color="ghost">
+        <Button size="default" color="ghost">
           <Typography variant="p" className="text-black">
             Sign Up
           </Typography>
@@ -91,7 +91,7 @@ export function Header({ className }: SidebarProps) {
   return (
     <div
       className={cn(
-        `flex md:h-12 h-14 items-center justify-center w-full
+        `flex md:h-16 h-18 items-center justify-center w-full
           border-b`,
         className
       )}

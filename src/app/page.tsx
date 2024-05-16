@@ -33,6 +33,7 @@ export default function Home() {
           height={632}
           alt="Pandem.dev hero image"
           src="/hero1.png"
+          className="rounded-lg"
         />
       </div>
       <div className="flex flex-col md:pt-24 md:gap-36 gap-24 items-center">
@@ -72,6 +73,7 @@ export default function Home() {
             height={632}
             alt="Pandem.dev hero image"
             src="/hero1.png"
+            className="rounded-lg"
           />
         </div>
         <div className="flex flex-col gap-6 items-center">
